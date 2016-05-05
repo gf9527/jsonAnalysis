@@ -2,6 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
+ * @author  gf
  * 接口主页
  * Class Index
  */
@@ -39,15 +40,12 @@ class Index extends CI_Controller
 		$paramValue = $this->input->get_post('paramValue');
 		$newParam = array_combine($paramName,$paramValue);
 		$jsonParam = json_encode($newParam);
-		/*$paramDepict = $this->input->get_post('paramDepict');
-		$jsonDepict = json_encode($paramDepict);*/
 		$interfaceArr = array(
 			'tId' => $tId,
 			'interfaceName' => $interfaceName,
 			'interfaceUrl' => $interfaceUrl,
 			'isLogin' => $isLogin,
 			'paramlist' => $jsonParam,
-			//'paramDepict' => $jsonDepict
 		);
 		$this->jiekou->addData($interfaceArr);
 		redirect('jiekou/Index/paramlist');
@@ -96,6 +94,11 @@ class Index extends CI_Controller
 		$this->load->view('jiekou/updateinfo',self::$data);
 	}
 
+	/**
+	 * @author  gf
+	 * 删除接口
+	 * @param bool $jId
+	 */
 	public function deleteJiekou($jId = false)
 	{
 		$jId = intval($jId);
@@ -120,6 +123,7 @@ class Index extends CI_Controller
 	}
 
 	/**
+	 * @author  gf
 	 * 修改数据
 	 */
 	public function update()
@@ -141,8 +145,8 @@ class Index extends CI_Controller
 	}
 
 	/**
+	 * @author  gf
 	 * 模拟post进行url请求
-	 *
 	 * @param string $url
 	 * @param array $post_data
 	 */
@@ -172,6 +176,7 @@ class Index extends CI_Controller
 	}
 
 	/**
+	 * @author  gf
 	 * 处理参数
 	 * */
 	public function dealparam($param)

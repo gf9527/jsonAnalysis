@@ -2,6 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
+ * @author  gf
  * 接口分类
  * Class Interfacetype
  */
@@ -14,6 +15,7 @@ class Interfacetype extends CI_Controller
 	}
 
 	/**
+	 * @author  gf
 	 * 执行添加接口
 	 */
 	public function doadd()
