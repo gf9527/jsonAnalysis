@@ -1,6 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * @author  gf
+ * Class Login_model
+ */
 class Login_model extends CI_Model
 {
 	private $table = 'user';
@@ -25,6 +29,7 @@ class Login_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 获取信息
 	 * @param bool|false $userId
 	 * @return mixed

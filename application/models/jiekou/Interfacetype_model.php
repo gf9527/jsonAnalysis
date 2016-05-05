@@ -1,6 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * @author  gf
+ * Class Interfacetype_model
+ */
 class Interfacetype_model extends CI_Model
 {
 	private $table = 'interfacetype';
@@ -10,6 +14,7 @@ class Interfacetype_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 添加接口分类
 	 * @param $data
 	 * @param bool|false $tId
@@ -31,6 +36,7 @@ class Interfacetype_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 获取总数据
 	 * @return mixed
 	 */

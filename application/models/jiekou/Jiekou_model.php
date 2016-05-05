@@ -1,11 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * @author  gf
+ * Class Jiekou_model
+ */
 class Jiekou_model extends CI_Model
 {
 	private $table = 'interface';
 
 	/**
+	 * @author  gf
 	 * 添加数据
 	 * @param $data
 	 * @return mixed
@@ -17,6 +22,7 @@ class Jiekou_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 接口列表
 	 */
 	public function jieList($param = array())
@@ -29,6 +35,7 @@ class Jiekou_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 拿取单条信息
 	 * @param $jId
 	 * @return mixed
@@ -45,6 +52,7 @@ class Jiekou_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 删除
 	 * @param $jId
 	 * @return mixed
@@ -55,6 +63,7 @@ class Jiekou_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 修改
 	 * @param bool|false $jId
 	 * @param $data
@@ -68,6 +77,7 @@ class Jiekou_model extends CI_Model
 	}
 
 	/**
+	 * @author  gf
 	 * 搜索条件
 	 * @param array $param
 	 * @return array
