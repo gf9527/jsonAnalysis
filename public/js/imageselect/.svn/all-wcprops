@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/server/!svn/ver/7/trunk/public/js/imageselect
+END
+default.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/server/!svn/ver/7/trunk/public/js/imageselect/default.jpg
+END
+jquery.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/server/!svn/ver/7/trunk/public/js/imageselect/jquery.min.js
+END
+jquery.imgareaselect.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/server/!svn/ver/7/trunk/public/js/imageselect/jquery.imgareaselect.min.js
+END
+ajaxfileupload.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/server/!svn/ver/7/trunk/public/js/imageselect/ajaxfileupload.js
+END
+jquery.imgareaselect.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/server/!svn/ver/7/trunk/public/js/imageselect/jquery.imgareaselect.js
+END
+jquery.imgareaselect.pack.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/server/!svn/ver/7/trunk/public/js/imageselect/jquery.imgareaselect.pack.js
+END

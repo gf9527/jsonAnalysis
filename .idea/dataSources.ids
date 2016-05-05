@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - polyguide@192.168.10.233" uuid="a4f36f7a-1973-4457-8cde-425e4229b31e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="MySQL - polyguide@192.168.10.233 [2]" uuid="62017c3a-dea0-4e2b-b81d-83c38acffdaf">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
